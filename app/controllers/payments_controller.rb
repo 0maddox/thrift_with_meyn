@@ -1,4 +1,4 @@
-# class PaymentsController < ApplicationController
+class PaymentsController < ApplicationController
 #   def make_payment
 #     # Step 1: Generate the access token
 #     access_token = generate_access_token
@@ -46,4 +46,4 @@
 #     payment_response = https.request(payment_request)
 #     payment_response.code == '200' # Assuming success response code is 200
 #   end
-# end
+end
