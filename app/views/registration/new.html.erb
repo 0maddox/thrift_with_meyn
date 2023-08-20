@@ -1,0 +1,9 @@
+<% if flash[:success] %>
+  <p class="success-message"><%= flash[:success] %></p>
+<% elsif flash[:error] %>
+  <p class="error-message"><%= flash[:error] %></p>
+<% end %>
+
+<%= form_for @user, url: registration_path do |f| %>
+  <!-- Form fields and submit button here -->
+<% end %>
